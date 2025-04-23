@@ -131,6 +131,24 @@ body{
 }
 
 @media screen and (max-width: 768px) {
+    .resultado-pantalla {
+        margin-top: 50px;
+        margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(104, 0, 104);
+        border-style: solid;
+        border-radius: 20px;
+        border-width: 5px;
+        border-color: rgb(124, 39, 203);
+        min-width: 50px;
+        max-width: 300px; 
+        min-block-size: 92px;   
+        position: relative;    
+        align-content: center;
+        /* box-shadow: 0 0 20px blueviolet; */
+    }
+    
     .button {
         border-radius: 20px;
         border-width: 5px;
@@ -142,14 +160,14 @@ body{
         margin: 5px;
         margin-bottom: 35px;
         min-block-size: 150px;
-        min-height: 80px;
-        min-width: 100px;
+        min-height: 50px;
+        min-width: 70px;
         box-shadow: 0 0 10px blueviolet;
         transition: 0.5s;
         cursor: pointer;
     }
 
     #button_tamal {
-        width: 208px;
+        width: 158px;
     }
 }
